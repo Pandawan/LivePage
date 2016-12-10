@@ -24,7 +24,8 @@ function setBackground () {
 	const doc = document.querySelector('html');
 
 	if (!randomBackground) {
-		doc.style.background = '#018DED url(http://unsplash.it/1920/1080?image=881&blur=50)';
+		doc.style.background = '#018DED url(./offline.png)';
+		doc.style.backgroundSize = 'cover';
 		return;
 	}
 
