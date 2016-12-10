@@ -1,2 +1,2 @@
 # LivePage
-A New Tab Chrome Extension
+Change your New Tab Page to a beautiful wallpaper and clock
