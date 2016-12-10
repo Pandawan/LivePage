@@ -24,7 +24,7 @@ function setBackground () {
 	const doc = document.querySelector('html');
 
 	if (!randomBackground) {
-		doc.style.background = '#018DED url(./offline.png)';
+		doc.style.background = '#018DED url(./offline2.png)';
 		doc.style.backgroundSize = 'cover';
 		return;
 	}
