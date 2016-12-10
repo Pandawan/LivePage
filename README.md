@@ -5,7 +5,7 @@ Change your New Tab Page to a random and beautiful wallpaper with a clock
 
 ## How to Install  
 Download the ```.crx``` file from the release [branch](https://github.com/PandawanFr/LivePage/releases/latest).  
-Open your [Chrome Extensions Tab](chrome://extensions).  
+Open your Chrome Extensions Tab (chrome://extensions).  
 Now drag and drop the ```crx``` file into the extensions tab and click ```Add Extension```.
 That's it!  
 
