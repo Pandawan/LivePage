@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+
+    "name": "LivePage",
+    "description": "This extension changes the default new tab page to a beautiful, animated page",
+    "author": "Pandawan",
+    "version": "1.0",
+
+    "icons": {
+        "19": "/icons/19.png"
+    },
+
+    "browser_action": {
+        "default_title": "New Tab"
+    },
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+
+    "chrome_url_overrides" : {
+        "newtab": "/page/page.html"
+    }
+}
