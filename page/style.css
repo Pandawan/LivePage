@@ -18,6 +18,16 @@ body {
 	align-items: center;
 }
 
+.credit {
+	position: fixed;
+	bottom: 5px;
+	left: 5px;
+	color: lightgrey;
+	font-weight: lighter;
+	text-decoration: none;
+	font-size: 0.75em;
+}
+
 .clock {
 	width: 30rem;
 	height: 30rem;

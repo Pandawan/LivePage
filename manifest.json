@@ -2,12 +2,12 @@
     "manifest_version": 2,
 
     "name": "LivePage",
-    "description": "This extension changes the default new tab page to a beautiful, animated page",
+    "description": "Change your New Tab Page to a beautiful wallpaper and clock",
     "author": "Pandawan",
     "version": "1.0",
 
     "icons": {
-        "19": "/icons/19.png"
+        "128": "/icons/128v2.png"
     },
 
     "browser_action": {
