@@ -1,5 +1,5 @@
 # LivePage
-Change your New Tab Page to a beautiful wallpaper and clock  
+Change your New Tab Page to a random and beautiful wallpaper with a clock  
 
 ![screenshot](http://i.imgur.com/VK0fCHv.png)
 
