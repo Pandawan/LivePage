@@ -2,6 +2,7 @@ const secondHand = document.querySelector('.second-hand');
 const minsHand = document.querySelector('.min-hand');
 const hourHand = document.querySelector('.hour-hand');
 const slider = document.querySelector('.toggle');
+const date = document.querySelector('.date');
 var randomBackground = false;
 
 function setDate() {
@@ -18,6 +19,27 @@ function setDate() {
 	const hour = now.getHours();
 	const hourDegrees = ((hour / 12) * 360) + 90;
 	hourHand.style.transform = `rotate(${hourDegrees}deg)`;
+
+	date.textContent = getDate();
+}
+
+function getDate () {
+	var monthNames = [
+	"January", "February", "March",
+	"April", "May", "June", "July",
+	"August", "September", "October",
+	"November", "December"
+	];
+
+	var weekday = [
+		"Sunday", "Monday", "Tuesday",
+		"Wednesday", "Thursday", "Friday",
+		"Saturday"
+	];
+
+	var date = new Date();
+
+	 return weekday[date.getDay()] + ' ' + monthNames[date.getMonth()] + ' ' + date.getDate() + 'th ';
 }
 
 function setBackground () {
