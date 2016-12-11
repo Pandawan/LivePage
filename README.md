@@ -1,7 +1,7 @@
 # LivePage
 Change your New Tab Page to a random and beautiful wallpaper with a clock  
 
-![screenshot](http://i.imgur.com/VK0fCHv.png)
+![screenshot](http://i.imgur.com/v1lCayg.png)
 
 ## How to Install  
 Download the ```.crx``` file from the release [branch](https://github.com/PandawanFr/LivePage/releases/latest).  
